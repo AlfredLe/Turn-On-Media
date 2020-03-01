@@ -1,0 +1,88 @@
+.philosophie {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.philosophie_title {
+	font-size: 55px;
+	text-align: center;
+	color: black;
+	border-bottom: 4px solid #142850;
+	display: inline;
+	font-family: 'Rubik', sans-serif;
+	word-spacing: 10px;
+}
+.philosophie_content {
+	margin: 30px;
+	padding-top: 30px;
+}
+
+.philosophie_title_2 {
+	font-size: 25px;
+	text-align: center;
+	color: #323edd;
+	display: inline;
+	font-family: 'Rubik', sans-serif;
+}
+.philosophie_text {
+	font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    word-spacing: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.profil_ceo-img {
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+.profil_ceo-image {
+	width: 110px;
+	border-radius: 48%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+.profil_ceo-title {
+	font-size: 25px;
+	text-align: center;
+	display: inline;
+	font-family: 'Rubik', sans-serif;
+	line-height: 28px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.profil_ceo-image {
+	width: 100px;
+}
+}
+@media only screen and (max-width: 600px) {
+	.philosophie_text {
+	font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    word-spacing: 3px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    line-height: 18px;
+    }
+    .philosophie_title_2 {
+	font-size: 20px;
+    }
+    .profil_ceo-image {
+	width: 90px;
+    }
+    .profil_ceo-title {
+	font-size: 20px;
+    }
+    .philosophie_title {
+    	font-size: 35px;
+		border-bottom: 3px solid #142850;
+    }
+}
+
+
+
+

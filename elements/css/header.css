@@ -1,0 +1,141 @@
+.header {
+	height: 550px;
+	width: 100%;
+	background: rgb(62,57,107);
+	position: relative;
+}
+
+.header_texture {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;left: 0;
+	background: url(../images/background.jpg) center no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	box-shadow: 0px 10px 30px rgba(0,0,0,1.2);
+}
+
+.header_navbar {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_navbar-logo-T {
+	height: 70px;
+	width: 70px;
+	margin-left: 15px;
+	border-radius: 50%;
+	justify-content: center;
+
+}
+
+.header_navbar-menu {
+	margin-right: 40px;
+}
+
+.header_navbar-menu-link {
+	margin-left: 40px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.header_slogan {
+	text-align: center;
+	margin-top: 60px;
+}
+.header_slogan-title {
+	color: white;
+	font-size: 110px;
+	font-family: 'Audiowide', sans-serif;
+	word-spacing: 6px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.header_slogan-text {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 70px;
+}
+
+.btn-fb {
+	background: #142850;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	opacity: 0.85;
+}
+.btn-fb:hover {
+	background: white;
+	color: black;
+}
+
+.header_navbar-menu-link:hover {
+	background : white;
+	color: black;
+	padding: 5px 5px;
+	border-radius: 50px;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1125px){
+    
+    .header_slogan-title {
+	    
+	    font-size: 100px;
+     }
+}
+@media only screen and (max-width: 1000px){
+    
+    .header_slogan-title {
+	    
+	    font-size: 70px;
+     }
+}
+
+@media only screen and (max-width: 600px){
+
+	.container {
+		width: 100%;
+		padding: 0 0px;
+	}
+	.header_navbar-menu {
+	margin-right: 25px;
+}
+	.header_navbar-menu-link {
+		font-size: 18px;
+	}
+	.header_slogan-title {
+		font-size: 50px;
+	}
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

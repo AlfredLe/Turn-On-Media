@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Hind Vadodara', sans-serif;
+	background: white;
+	}
+
+.container1 {
+	width: 100%;
+	margin: auto;
+	position: relative;
+	z-index: 999;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	position: relative;
+	z-index: 999;
+}
+
+
+
+
+
+
+
+
+.calendly_header {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.calendly_title {
+	font-size: 55px;
+	text-align: center;
+	color: black;
+	border-bottom: 4px solid #142850;
+	display: inline;
+	font-family: 'Rubik', sans-serif;
+	word-spacing: 10px;
+}
+
+.calendly_text {
+	font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    word-spacing: 4px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+.calendly-inline-widget {
+	background-color: white;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.calendly_text {
+	font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    word-spacing: 3px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    line-height: 18px;
+	}
+
+	.calendly_title {
+		font-size: 35px;
+		border-bottom: 3px solid #142850;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

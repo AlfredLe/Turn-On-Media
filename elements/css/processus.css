@@ -1,0 +1,81 @@
+.processus {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.processus_title {
+	font-size: 55px;
+	text-align: center;
+	color: black;
+	border-bottom: 4px solid #142850;
+	display: inline;
+	font-family: 'Rubik', sans-serif;
+	word-spacing: 10px;
+}
+.processus_section1 {
+	background: rgb(225,225,225);
+	border-radius: 130%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+.processus_section {
+	background: rgb(225,225,225);
+	border-radius: 130%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 25px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.processus_title_section {
+	font-size: 30px;
+	text-align: center;
+	color: #323edd;
+	display: inline;
+	font-family: 'Rubik', sans-serif;
+}
+
+.processus_text {
+	font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    word-spacing: 4px;
+    margin-top: 20px;
+    margin-bottom: 48px;
+    line-height: 28px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.processus_text {
+	font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    word-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 18px;
+    }
+    .processus_title_section {
+	font-size: 20px;
+	text-align: center;
+	color: #323edd;
+	display: inline;
+	font-family: 'Rubik', sans-serif;
+    }
+    .processus_title {
+    	font-size: 35px;
+		border-bottom: 3px solid #142850;
+    }
+}
+
+
+
+
+
+
+
